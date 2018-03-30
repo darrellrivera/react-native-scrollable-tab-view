@@ -238,6 +238,7 @@ const ScrollableTabView = createReactClass({
         directionalLockEnabled
         alwaysBounceVertical={false}
         keyboardDismissMode="on-drag"
+        keyboardShouldPersistTaps='always'
         {...this.props.contentProps}
       >
           {scenes}
